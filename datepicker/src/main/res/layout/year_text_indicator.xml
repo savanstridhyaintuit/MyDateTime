@@ -4,7 +4,7 @@
     android:id="@+id/year_element_container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <com.kunzisoft.switchdatetime.date.widget.TextCircularIndicatorView
+    <com.savan.datepicker.date.widget.TextCircularIndicatorView
         android:id="@+id/year_textView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

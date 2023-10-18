@@ -108,7 +108,7 @@
             android:gravity="center"
             android:orientation="vertical"
             android:focusable="true" >
-            <com.kunzisoft.switchdatetime.time.RadialPickerLayout
+            <com.savan.datepicker.time.RadialPickerLayout
                 android:id="@+id/time_picker"
                 android:layout_height="@dimen/time_circle_width"
                 android:layout_width="@dimen/time_circle_width"
@@ -133,7 +133,7 @@
         </FrameLayout>
 
 
-        <com.kunzisoft.switchdatetime.date.widget.ListPickerYearView
+        <com.savan.datepicker.date.widget.ListPickerYearView
             xmlns:year="http://schemas.android.com/apk/res-auto"
             android:id="@+id/yearPicker"
             android:layout_width="match_parent"

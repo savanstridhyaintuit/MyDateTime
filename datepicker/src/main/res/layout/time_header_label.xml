@@ -18,7 +18,7 @@
     android:layout_width="@dimen/time_label_width"
     android:layout_height="@dimen/time_label_height">
 
-    <com.kunzisoft.switchdatetime.time.widget.AccessibleTextView
+    <com.savan.datepicker.time.widget.AccessibleTextView
         android:id="@+id/separator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         android:layout_marginStart="@dimen/time_separator_position"
         style="@style/Theme.SwitchDateTime.TimeLabelText" />
 
-    <com.kunzisoft.switchdatetime.time.widget.AccessibleTextView
+    <com.savan.datepicker.time.widget.AccessibleTextView
         android:id="@+id/hours"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
         android:layout_centerVertical="true"
         style="@style/Theme.SwitchDateTime.TimeLabelText" />
 
-    <com.kunzisoft.switchdatetime.time.widget.AccessibleTextView
+    <com.savan.datepicker.time.widget.AccessibleTextView
         android:id="@+id/minutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
         android:layout_centerVertical="true"
         style="@style/Theme.SwitchDateTime.TimeLabelText" />
 
-    <com.kunzisoft.switchdatetime.time.widget.AccessibleTextView
+    <com.savan.datepicker.time.widget.AccessibleTextView
         android:id="@+id/ampm_hitspace"
         android:layout_width="@dimen/ampm_label_size"
         android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
         android:layout_alignStart="@+id/ampm_label"
         android:layout_alignRight="@+id/ampm_label"
         android:layout_alignEnd="@+id/ampm_label" />
-    <com.kunzisoft.switchdatetime.time.widget.AccessibleTextView
+    <com.savan.datepicker.time.widget.AccessibleTextView
         android:id="@+id/ampm_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
